@@ -1,0 +1,20 @@
+{
+  "ccz_fixed_channel": {
+    "bell_violation": 0.7071067811865475,
+    "channel_positive": 0.9148402794018113,
+    "coefficient_decimal": 0.6919417382415922,
+    "coefficient_exact": "(4+5sqrt(2))/16",
+    "diamond_nontrivial": 0.9993320703102683,
+    "state_beats_floor": 0.85097048895317,
+    "state_positive": 0.8296805588036228
+  },
+  "uniform_boolean_phase": {
+    "bell_violation": 0.7071067811865475,
+    "channel_positive": 0.934912618041455,
+    "coefficient_decimal": 0.9053300858899106,
+    "coefficient_exact": "3(1+sqrt(2))/8",
+    "diamond_nontrivial": 0.9994895028479234,
+    "state_beats_floor": 0.8860970815725463,
+    "state_positive": 0.86982523608291
+  }
+}

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this verification package, please cite the associated paper."
+title: "Boolean-Phase Gate Self-Testing: Verification Code and Certificates"
+version: 1.0.0
+date-released: 2026-07-28
+url: "https://github.com/brant-fudan/boolean-phase-gate-self-testing"
+repository-code: "https://github.com/brant-fudan/boolean-phase-gate-self-testing"
+license: MIT
+authors:
+  - family-names: Han
+    given-names: Yunguang
+  - family-names: Kuang
+    given-names: Xin
+  - family-names: Bu
+    given-names: Xingyuan
+  - family-names: Wang
+    given-names: Yukun

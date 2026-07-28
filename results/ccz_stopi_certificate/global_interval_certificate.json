@@ -1,0 +1,580 @@
+{
+  "arithmetic": "exact Q(sqrt(2)) source coefficients; dyadic Bernstein restriction with outward operator-norm errors; Cholesky residual verification; exact local Schur handoffs",
+  "bernstein_leaves": 8818,
+  "branch_orbits": 20,
+  "candidate_slope": "(4 + 5*sqrt(2))/16",
+  "center_weyl_leaves": 0,
+  "eta": "1/2",
+  "local_schur_handoffs": 110,
+  "maximum_depth": 61,
+  "minimum_bernstein_margin": 3.493158352255358e-09,
+  "minimum_center_weyl_margin": null,
+  "nodes": 17836,
+  "orbit_sha256": {
+    "orbit_0.json": "95a9a74b34d8cf8fd87706bf32ef614412e7be3ca9d5e0db00ff3a3f42055221",
+    "orbit_1.json": "4da4d2336889b4756a5fb90ddf301bf26d8a8fc2db1ab1db0c9f52b211106ad6",
+    "orbit_10.json": "1d82df6504ae6e27f60884b7d3835523b06c0234c87c2810c7cb826be947d305",
+    "orbit_11.json": "82fc60c3c345280cb5f0a934fa9a74f69cce5e2888de74acc84bb871d1d4a78d",
+    "orbit_12.json": "53cbd2a0cea404471f5ffbaed8087e644d5496cc79d9e2d694a37512824a1013",
+    "orbit_13.json": "3d9b00da68e28d62523abf0b91230663237b0bf29278f6c226d3669c420357d6",
+    "orbit_14.json": "d4ec73637cc441723ff3885c2f6f4abdaeba19116ac19835f8c5a5589b17f17c",
+    "orbit_15.json": "4ff181deb2698a5b043a5020937b8a703088522b31b51b457c1286a49fec747f",
+    "orbit_16.json": "72f914ece7d122279eaf8a0ab46d6a7865f6eecd6b47a75734eb4dd3a6c24bd3",
+    "orbit_17.json": "8b2fe0a49f7e690506e1490a3f7c86a684c094b78a39b9fe863387f1e9c3a8e6",
+    "orbit_18.json": "7a88b2fd4dace0ac5052ff7952318654e32ef7d1510768c5dbbbb70136d864bf",
+    "orbit_19.json": "d04563111e5f82537f0051e739471feb3cdb7f7e83da11403984cadcffb677b9",
+    "orbit_2.json": "c86f3eddf9264b0de6cef1f3a3dc31d1962da3a2a1c89997a81756bb751b423a",
+    "orbit_3.json": "4b8d9b19ad0d66d582c82ddbfc3dc898311fcf138731e727abc17d9d1997b224",
+    "orbit_4.json": "9ad7183f05d032c416091c41c1471db5ee26d81d04ca779383878ed4a8497c1d",
+    "orbit_5.json": "7df68a1d7f642478429cb6dd4d5519c261de8ae5fec9f3d8a88bc657b3118c89",
+    "orbit_6.json": "ec2619e0a61caec0f199636736d8c3199b3cd3f69189c42c411ed41e42c3d493",
+    "orbit_7.json": "8c9093ed1758ded9c32c7eb2ad7f298525a066047e45d5b9a46fbb261f15481d",
+    "orbit_8.json": "a8e82bd626d4f21685c5951dc45ea65b7e29bd86c002bc3bc646e1a762671e4f",
+    "orbit_9.json": "14cc05c812be345757d8e658c2a30a2a9938a74a684deb2861468220773fc6e6"
+  },
+  "orbits": [
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "ZZZZZZ",
+      "bernstein_leaves": 713,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 607.563994884491,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 10,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 4.892117018135344e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 1445,
+      "orbit_index": 0,
+      "orbit_size": 1,
+      "root": {
+        "maximum_input_error": 4.798065060037091e-11,
+        "minimum_floating_estimate": -0.227540673981803,
+        "positive_estimates": 489
+      },
+      "site_types": [
+        "ZZ",
+        "ZZ",
+        "ZZ"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    },
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "ZZZZZX",
+      "bernstein_leaves": 713,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 608.4945390224457,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 10,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 4.892101597042705e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 1445,
+      "orbit_index": 1,
+      "orbit_size": 3,
+      "root": {
+        "maximum_input_error": 4.798065060037091e-11,
+        "minimum_floating_estimate": -0.2275406739818026,
+        "positive_estimates": 489
+      },
+      "site_types": [
+        "ZZ",
+        "ZZ",
+        "ZX"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    },
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "ZZXZZZ",
+      "bernstein_leaves": 526,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 492.0247769355774,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 7,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 4.887094402857693e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 1065,
+      "orbit_index": 2,
+      "orbit_size": 3,
+      "root": {
+        "maximum_input_error": 4.8382914879266955e-11,
+        "minimum_floating_estimate": -0.24694746793327993,
+        "positive_estimates": 519
+      },
+      "site_types": [
+        "ZZ",
+        "ZZ",
+        "XZ"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    },
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "ZZXZZX",
+      "bernstein_leaves": 526,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 491.2542209625244,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 7,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 4.8870933194314075e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 1065,
+      "orbit_index": 3,
+      "orbit_size": 3,
+      "root": {
+        "maximum_input_error": 4.8382914879266955e-11,
+        "minimum_floating_estimate": -0.24694746793328057,
+        "positive_estimates": 519
+      },
+      "site_types": [
+        "ZZ",
+        "ZZ",
+        "XX"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    },
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "ZZZZXX",
+      "bernstein_leaves": 713,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 500.4196400642395,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 10,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 4.892097688628892e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 1445,
+      "orbit_index": 4,
+      "orbit_size": 3,
+      "root": {
+        "maximum_input_error": 4.798065060037091e-11,
+        "minimum_floating_estimate": -0.22754067398180283,
+        "positive_estimates": 489
+      },
+      "site_types": [
+        "ZZ",
+        "ZX",
+        "ZX"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    },
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "ZZXZXZ",
+      "bernstein_leaves": 526,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 409.18298506736755,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 7,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 4.887076772238319e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 1065,
+      "orbit_index": 5,
+      "orbit_size": 6,
+      "root": {
+        "maximum_input_error": 4.8382914879266955e-11,
+        "minimum_floating_estimate": -0.2469474679332753,
+        "positive_estimates": 519
+      },
+      "site_types": [
+        "ZZ",
+        "ZX",
+        "XZ"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    },
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "ZZXZXX",
+      "bernstein_leaves": 526,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 406.4359076023102,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 7,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 4.8870740625589614e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 1065,
+      "orbit_index": 6,
+      "orbit_size": 6,
+      "root": {
+        "maximum_input_error": 4.8382914879266955e-11,
+        "minimum_floating_estimate": -0.2469474679332837,
+        "positive_estimates": 519
+      },
+      "site_types": [
+        "ZZ",
+        "ZX",
+        "XX"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    },
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "ZXXZZZ",
+      "bernstein_leaves": 347,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 301.544939994812,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 4,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 3.4931889600584704e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 701,
+      "orbit_index": 7,
+      "orbit_size": 3,
+      "root": {
+        "maximum_input_error": 4.868080168576452e-11,
+        "minimum_floating_estimate": -0.24409269538437528,
+        "positive_estimates": 555
+      },
+      "site_types": [
+        "ZZ",
+        "XZ",
+        "XZ"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    },
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "ZXXZZX",
+      "bernstein_leaves": 347,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 214.2679250240326,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 4,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 3.4931875388328463e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 701,
+      "orbit_index": 8,
+      "orbit_size": 6,
+      "root": {
+        "maximum_input_error": 4.868080168576452e-11,
+        "minimum_floating_estimate": -0.2440926953843796,
+        "positive_estimates": 555
+      },
+      "site_types": [
+        "ZZ",
+        "XZ",
+        "XX"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    },
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "ZXXZXX",
+      "bernstein_leaves": 347,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 214.30832409858704,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 4,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 3.49318854533319e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 701,
+      "orbit_index": 9,
+      "orbit_size": 3,
+      "root": {
+        "maximum_input_error": 4.868080168576452e-11,
+        "minimum_floating_estimate": -0.24409269538438028,
+        "positive_estimates": 555
+      },
+      "site_types": [
+        "ZZ",
+        "XX",
+        "XX"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    },
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "ZZZXXX",
+      "bernstein_leaves": 713,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 369.45869636535645,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 10,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 4.892086928340844e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 1445,
+      "orbit_index": 10,
+      "orbit_size": 1,
+      "root": {
+        "maximum_input_error": 4.798065060037091e-11,
+        "minimum_floating_estimate": -0.22754067398180186,
+        "positive_estimates": 489
+      },
+      "site_types": [
+        "ZX",
+        "ZX",
+        "ZX"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    },
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "ZZXXXZ",
+      "bernstein_leaves": 526,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 294.61947202682495,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 7,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 4.8870622325152615e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 1065,
+      "orbit_index": 11,
+      "orbit_size": 3,
+      "root": {
+        "maximum_input_error": 4.8382914879266955e-11,
+        "minimum_floating_estimate": -0.2469474679332792,
+        "positive_estimates": 519
+      },
+      "site_types": [
+        "ZX",
+        "ZX",
+        "XZ"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    },
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "ZZXXXX",
+      "bernstein_leaves": 526,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 331.8073058128357,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 7,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 4.887061603984301e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 1065,
+      "orbit_index": 12,
+      "orbit_size": 3,
+      "root": {
+        "maximum_input_error": 4.8382914879266955e-11,
+        "minimum_floating_estimate": -0.246947467933279,
+        "positive_estimates": 519
+      },
+      "site_types": [
+        "ZX",
+        "ZX",
+        "XX"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    },
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "ZXXXZZ",
+      "bernstein_leaves": 347,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 259.94407773017883,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 4,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 3.493160792259223e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 701,
+      "orbit_index": 13,
+      "orbit_size": 3,
+      "root": {
+        "maximum_input_error": 4.868080168576452e-11,
+        "minimum_floating_estimate": -0.24409269538437925,
+        "positive_estimates": 555
+      },
+      "site_types": [
+        "ZX",
+        "XZ",
+        "XZ"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    },
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "ZXXXZX",
+      "bernstein_leaves": 347,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 260.1078450679779,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 4,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 3.493158983573052e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 701,
+      "orbit_index": 14,
+      "orbit_size": 6,
+      "root": {
+        "maximum_input_error": 4.868080168576452e-11,
+        "minimum_floating_estimate": -0.2440926953843774,
+        "positive_estimates": 555
+      },
+      "site_types": [
+        "ZX",
+        "XZ",
+        "XX"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    },
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "ZXXXXX",
+      "bernstein_leaves": 347,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 260.06627202033997,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 4,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 3.493158352255358e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 701,
+      "orbit_index": 15,
+      "orbit_size": 3,
+      "root": {
+        "maximum_input_error": 4.868080168576452e-11,
+        "minimum_floating_estimate": -0.2440926953843771,
+        "positive_estimates": 555
+      },
+      "site_types": [
+        "ZX",
+        "XX",
+        "XX"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    },
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "XXXZZZ",
+      "bernstein_leaves": 182,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 117.24731802940369,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 1,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 7.147587510318725e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 365,
+      "orbit_index": 16,
+      "orbit_size": 1,
+      "root": {
+        "maximum_input_error": 4.893692093940567e-11,
+        "minimum_floating_estimate": -0.2257055752785186,
+        "positive_estimates": 600
+      },
+      "site_types": [
+        "XZ",
+        "XZ",
+        "XZ"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    },
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "XXXZZX",
+      "bernstein_leaves": 182,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 117.83777117729187,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 1,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 7.147585799936284e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 365,
+      "orbit_index": 17,
+      "orbit_size": 3,
+      "root": {
+        "maximum_input_error": 4.893692093940567e-11,
+        "minimum_floating_estimate": -0.2257055752785154,
+        "positive_estimates": 600
+      },
+      "site_types": [
+        "XZ",
+        "XZ",
+        "XX"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    },
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "XXXZXX",
+      "bernstein_leaves": 182,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 117.98123216629028,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 1,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 7.147587127157364e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 365,
+      "orbit_index": 18,
+      "orbit_size": 3,
+      "root": {
+        "maximum_input_error": 4.893692093940567e-11,
+        "minimum_floating_estimate": -0.22570557527851817,
+        "positive_estimates": 600
+      },
+      "site_types": [
+        "XZ",
+        "XX",
+        "XX"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    },
+    {
+      "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+      "axes": "XXXXXX",
+      "bernstein_leaves": 182,
+      "center_weyl_leaves": 0,
+      "elapsed_seconds": 117.99392509460449,
+      "local_l1_radius": "29/10000",
+      "local_schur_handoffs": 1,
+      "maximum_depth": 61,
+      "minimum_bernstein_margin": 7.147586739417495e-09,
+      "minimum_center_weyl_margin": null,
+      "nodes": 365,
+      "orbit_index": 19,
+      "orbit_size": 1,
+      "root": {
+        "maximum_input_error": 4.893692093940567e-11,
+        "minimum_floating_estimate": -0.22570557527851937,
+        "positive_estimates": 600
+      },
+      "site_types": [
+        "XX",
+        "XX",
+        "XX"
+      ],
+      "status": "passed",
+      "unresolved_cells": 0
+    }
+  ],
+  "physical_branches_covered_by_symmetry": 64,
+  "status": "passed_global_interval_certificate",
+  "unresolved_cells": 0
+}

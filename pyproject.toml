@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "boolean-phase-gate-self-testing"
+version = "1.0.0"
+description = "Exact and validated certificates for device-independent Boolean-phase gate certification"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "matplotlib==3.8.4",
+  "numpy==2.4.1",
+  "sympy==1.14.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest==8.4.1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

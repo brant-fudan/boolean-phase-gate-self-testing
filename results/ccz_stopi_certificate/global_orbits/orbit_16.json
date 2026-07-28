@@ -1,0 +1,27 @@
+{
+  "arithmetic": "exact Q(sqrt(2)) coefficients; outward norm errors; Cholesky residual verification",
+  "axes": "XXXZZZ",
+  "bernstein_leaves": 182,
+  "center_weyl_leaves": 0,
+  "elapsed_seconds": 117.24731802940369,
+  "local_l1_radius": "29/10000",
+  "local_schur_handoffs": 1,
+  "maximum_depth": 61,
+  "minimum_bernstein_margin": 7.147587510318725e-09,
+  "minimum_center_weyl_margin": null,
+  "nodes": 365,
+  "orbit_index": 16,
+  "orbit_size": 1,
+  "root": {
+    "maximum_input_error": 4.893692093940567e-11,
+    "minimum_floating_estimate": -0.2257055752785186,
+    "positive_estimates": 600
+  },
+  "site_types": [
+    "XZ",
+    "XZ",
+    "XZ"
+  ],
+  "status": "passed",
+  "unresolved_cells": 0
+}
