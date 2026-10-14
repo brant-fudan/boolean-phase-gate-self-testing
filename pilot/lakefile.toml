@@ -1,0 +1,10 @@
+name = "boolean_phase_pilot"
+version = "0.1.0"
+defaultTargets = ["Pilot", "export_rows"]
+
+[[lean_lib]]
+name = "Pilot"
+
+[[lean_exe]]
+name = "export_rows"
+root = "ExportRows"

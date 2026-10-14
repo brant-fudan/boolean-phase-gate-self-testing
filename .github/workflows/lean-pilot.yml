@@ -1,0 +1,37 @@
+name: Lean undergraduate pilot
+on:
+  push:
+    branches: ['pilot/**']
+  pull_request:
+    paths: ['pilot/**', '.github/workflows/lean-pilot.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: pilot
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pinned Lean 4.19.0
+        run: |
+          curl --fail --location --retry 3 -o /tmp/lean.tar.zst https://github.com/leanprover/lean4/releases/download/v4.19.0/lean-4.19.0-linux.tar.zst
+          echo '6fe3ce97a58f44e2b3567d455b994eacec5bfe9ae7774f2a573444480ba813fe  /tmp/lean.tar.zst' | sha256sum --check
+          tar --zstd -xf /tmp/lean.tar.zst -C /tmp
+          echo /tmp/lean-4.19.0-linux/bin >> "$GITHUB_PATH"
+      - name: Build and audit
+        run: |
+          set -o pipefail
+          mkdir -p evidence
+          lean --version | tee evidence/lean-version.txt
+          lake build 2>&1 | tee evidence/build.log
+          lake env lean Audit.lean 2>&1 | tee evidence/axioms.log
+          lake exe export_rows > evidence/lean_rows.csv
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: lean-pilot-evidence
+          path: pilot/evidence/
