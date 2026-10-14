@@ -4,6 +4,9 @@ namespace Pilot
 
 abbrev Bits (n : Nat) := Fin n → Bool
 
+instance {n : Nat} : DecidableEq (Bits n) := fun a b =>
+  decidable_of_iff (∀ i : Fin n, a i = b i) ⟨fun h => funext h, fun h => congrFun h⟩
+
 def setBit {n : Nat} (x : Bits n) (i : Fin n) (b : Bool) : Bits n :=
   fun j => if j = i then b else x j
 
