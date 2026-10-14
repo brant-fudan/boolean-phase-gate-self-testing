@@ -2,20 +2,20 @@
 
 ## 已获证据
 
-初次完整验收提交：`ad4922b92dac80fede643c974556f27fed322dd9`。
+最终代码验收提交：`2ed24937c354ffe9b21f1c0fade09a67bfe03a63`。
 
-[完整通过的 CI](https://github.com/brant-fudan/boolean-phase-gate-self-testing/actions/runs/38506554566)
+[完整通过的 CI](https://github.com/brant-fudan/boolean-phase-gate-self-testing/actions/runs/38507168563)
 
-`evidence/ci_verified_ad4922b.json` 从该运行的实际日志提取，包含源文件 hash、工具版本、公理集合和测试统计。此后新增的非零定理、形式化接口与文档以最新 CI 的结果为准。
+`evidence/ci_verified_2ed2493.json` 从该运行的实际日志提取，包含源文件 hash、工具版本、公理集合和测试统计。该版本包含非零定理、形式化接口、27 项测试与学生文档，完整验收通过。此前通过版本另保留在 `evidence/ci_verified_ad4922b.json`。
 
 | 检查 | 实测结果 |
 |---|---|
 | Lean 工具链 | 4.19.0，官方 Linux 发行包 SHA256 校验通过 |
 | CCZ 三个导数证明 | 编译通过 |
-| 一般有限 n 的 Z/X 稳定子 | 编译通过 |
+| 一般有限 n 的 Z/X 稳定子与非零性 | 编译通过 |
 | 公理审计 | 无 sorryAx；只出现 propext、Quot.sound |
 | 两个错误命题的 Lean 否定证明 | 通过，无公理依赖 |
-| Python 测试 | 初次 CI 26 项；加入陈述门禁测试后本地 27 项通过 |
+| Python 测试 | 27 项，本地与最终 CI 均通过 |
 | 精确实例检查 | 804 组通过 |
 | 原 Python 归一化矩阵比对 | 32 个函数通过 |
 | Lean/Python CSV | 49,680 行逐项一致 |

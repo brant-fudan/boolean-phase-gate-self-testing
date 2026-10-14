@@ -4,6 +4,8 @@
 
 **已实际完成 Lean 编译和跨语言验证。当前模型接口可用代码已提供，但没有外部 LLM API 实验数据。默认 replay 是集成测试，不是 AI 成功率。**
 
+实测结果：27 项测试通过；804 组精确检查、32 个矩阵函数、49,680 行跨语言比对通过。详见 [验收记录](docs/STATUS.md) 和 [实际 CI](https://github.com/brant-fudan/boolean-phase-gate-self-testing/actions/runs/38507168563)。
+
 ## 1. 快速开始
 
 ```bash
