@@ -118,7 +118,7 @@ def replay(task,attempt):
         text=(ROOT/'Pilot/Stabilizers.lean').read_text()
         name='choi_stabilizerZ' if task.endswith('_z') else 'choi_stabilizerX'
         chunk=text.split('theorem '+name,1)[1].split(' := by\n',1)[1]
-        proof=chunk.split('\ntheorem ',1)[0].split('\nend Pilot',1)[0].strip('\n')
+        proof=chunk.split('\ntheorem ',1)[0].split('\n--',1)[0].split('\nend Pilot',1)[0].strip('\n')
         proof='\n'.join(line[2:] if line.startswith('  ') else line for line in proof.splitlines())
     else:
         proof='cases a <;> cases b <;> cases c <;> decide'

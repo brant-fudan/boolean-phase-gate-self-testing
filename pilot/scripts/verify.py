@@ -48,7 +48,7 @@ try:
     command('build',['lake','build'])
     audit=command('axioms',['lake','env','lean','Audit.lean'])
     names=['ccz_derivative0','ccz_derivative1','ccz_derivative2','derivative_flip_form',
-           'choi_stabilizerZ','choi_stabilizerX','ccz_wrong_omits_factor','ccz_wrong_zero_derivative']
+           'choi_stabilizerZ','choi_stabilizerX','choi_nonzero','ccz_wrong_omits_factor','ccz_wrong_zero_derivative']
     report['axioms']={name:agent_loop.parse_axioms(audit,'Pilot.'+name) for name in names}
     rows=command('export',[str(ROOT/'.lake/build/bin/export_rows')])
     (EVIDENCE/'lean_rows.csv').write_text(rows)

@@ -2,3 +2,6 @@
 __pycache__/
 .pytest_cache/
 .agent-runs/
+.venv/
+evidence/lean_rows.csv
+evidence/export.log

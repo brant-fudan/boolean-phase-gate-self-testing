@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "stages": [
+    {
+      "stage": "lean_version",
+      "returncode": 0,
+      "seconds": 0.03
+    },
+    {
+      "stage": "clean",
+      "returncode": 0,
+      "seconds": 0.0312
+    },
+    {
+      "stage": "build",
+      "returncode": 0,
+      "seconds": 1.5443
+    },
+    {
+      "stage": "axioms",
+      "returncode": 0,
+      "seconds": 0.181
+    },
+    {
+      "stage": "export",
+      "returncode": 0,
+      "seconds": 0.1599
+    },
+    {
+      "stage": "pytest",
+      "returncode": 0,
+      "seconds": 0.6171
+    }
+  ],
+  "live_llm_experiment": "NOT_RUN",
+  "lean_version": "Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)",
+  "axioms": {
+    "ccz_derivative0": [
+      "propext"
+    ],
+    "ccz_derivative1": [
+      "propext"
+    ],
+    "ccz_derivative2": [
+      "propext"
+    ],
+    "derivative_flip_form": [
+      "propext",
+      "Quot.sound"
+    ],
+    "choi_stabilizerZ": [
+      "propext",
+      "Quot.sound"
+    ],
+    "choi_stabilizerX": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ccz_wrong_omits_factor": [],
+    "ccz_wrong_zero_derivative": []
+  },
+  "cross_validation": {
+    "upstream_commit": "6c28d91163bc728999fef7b04ba54ae773fe58e9",
+    "upstream_sha256": "1c2a15b632ccf613e8478cab0b97710bc97b2c17c904a05240e9e07f9f56df62",
+    "ccz_cases": 24,
+    "exact_operator_cases": 804,
+    "matrix_functions": 32,
+    "lean_rows_compared": 49680,
+    "lean_bridge": "PASS"
+  },
+  "agent_smoke": {
+    "ccz_d0": {
+      "provider": "replay_fixture",
+      "statuses": [
+        "LEAN_REJECTED",
+        "VERIFIED"
+      ]
+    },
+    "ccz_d1": {
+      "provider": "replay_fixture",
+      "statuses": [
+        "LEAN_REJECTED",
+        "VERIFIED"
+      ]
+    },
+    "ccz_d2": {
+      "provider": "replay_fixture",
+      "statuses": [
+        "LEAN_REJECTED",
+        "VERIFIED"
+      ]
+    },
+    "wrong_factor": {
+      "provider": "replay_fixture",
+      "statuses": [
+        "LEAN_REJECTED",
+        "LEAN_REJECTED"
+      ]
+    },
+    "wrong_zero": {
+      "provider": "replay_fixture",
+      "statuses": [
+        "LEAN_REJECTED",
+        "LEAN_REJECTED"
+      ]
+    },
+    "stabilizer_z": {
+      "provider": "replay_fixture",
+      "statuses": [
+        "LEAN_REJECTED",
+        "VERIFIED"
+      ]
+    },
+    "stabilizer_x": {
+      "provider": "replay_fixture",
+      "statuses": [
+        "LEAN_REJECTED",
+        "VERIFIED"
+      ]
+    }
+  },
+  "source_sha256": {
+    "Pilot/Definitions.lean": "501c7fb56aad3cbc7a93e2a9c1e2d29fbef5a6c59d59c34b265930b5cc20637c",
+    "Pilot/Basic.lean": "608f9500fd6526b4ece28e8baa779bb11e319a5c3693e8219b95b3c48e0c08b0",
+    "Pilot/Stabilizers.lean": "55de506f1b75961838cad4977dda0685bc94b137c404b100c0f010039d8bdc5b",
+    "Pilot.lean": "f84b4b6da0f2c2059c0d7dbfe322f1d51877656bcc42240e5208573d2cdd8ca9",
+    "Audit.lean": "07e5baa3c590110400710dfbbc5e57260eda8e7626728a087e06c3571d51291d",
+    "ExportRows.lean": "e56cc794f05b66d3ec5023d8b379baca352aa164826a55d3c37188e20f3c5030"
+  },
+  "git_commit": "ad4922b92dac80fede643c974556f27fed322dd9",
+  "python": "3.11.17 (main, Oct  1 2026, 14:32:31) [GCC 13.3.0]",
+  "run_url": "https://github.com/brant-fudan/boolean-phase-gate-self-testing/actions/runs/38506554566"
+}

@@ -1,0 +1,18 @@
+[
+  {"id":"C01","kind":"true","task":"ccz_d0","evidence":"Pilot.ccz_derivative0"},
+  {"id":"C02","kind":"true","task":"ccz_d1","evidence":"Pilot.ccz_derivative1"},
+  {"id":"C03","kind":"true","task":"ccz_d2","evidence":"Pilot.ccz_derivative2"},
+  {"id":"S01","kind":"true","task":"stabilizer_z","evidence":"Pilot.choi_stabilizerZ"},
+  {"id":"S02","kind":"true","task":"stabilizer_x","evidence":"Pilot.choi_stabilizerX"},
+  {"id":"N01","kind":"false","task":"wrong_factor","counterexample":{"a":false,"b":true,"c":false},"evidence":"Pilot.ccz_wrong_omits_factor"},
+  {"id":"N02","kind":"false","task":"wrong_zero","counterexample":{"a":false,"b":true,"c":true},"evidence":"Pilot.ccz_wrong_zero_derivative"},
+  {"id":"N03","kind":"false","claim":"omit D from X stabilizer for CCZ","evidence":"test_missing_phase_operator_fails","formal_negation_proved":false},
+  {"id":"N04","kind":"false","claim":"Z_A alone stabilizes Choi state","evidence":"test_single_z_is_not_stabilizer","formal_negation_proved":false},
+  {"id":"H01","kind":"semantic_trap","claim":"Boolean XOR derivative equals ordinary signed difference","evidence":"test_ordinary_difference_is_not_boolean_derivative"},
+  {"id":"H02","kind":"semantic_trap","claim":"site zero always means least significant bit","evidence":"test_endianness_bug_detected_by_asymmetric_phase"},
+  {"id":"H03","kind":"semantic_trap","claim":"the unnormalized state has norm one","evidence":"test_missing_normalization_detected"},
+  {"id":"H04","kind":"actually_true","claim":"D and same-site X flips commute","evidence":"Pilot.derivative_flip; test_derivative_phase_commutes_with_flips"},
+  {"id":"H05","kind":"unsupported_scope","claim":"finite ideal stabilizers prove arbitrary-device self-testing","expected":"OUT_OF_SCOPE","automated_semantic_detection":false},
+  {"id":"H06","kind":"hallucinated_lemma","claim":"exact nonexistent_ccz_lemma","expected":"LEAN_REJECTED"},
+  {"id":"H07","kind":"contract_attack","claim":"replace target with True or add target as hypothesis","expected":"CONTRACT_REJECTED"}
+]

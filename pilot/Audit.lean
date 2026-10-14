@@ -7,3 +7,4 @@ import Pilot
 #print axioms Pilot.choi_stabilizerX
 #print axioms Pilot.ccz_wrong_omits_factor
 #print axioms Pilot.ccz_wrong_zero_derivative
+#print axioms Pilot.choi_nonzero

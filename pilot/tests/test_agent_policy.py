@@ -42,3 +42,14 @@ def test_kernel_axiom_whitelist():
 def test_valid_replay_bodies_pass_policy():
     for task in agent.TASKS:
         agent.validate_proof(agent.replay(task,1)['proof'])
+
+
+def test_reference_statement_guard():
+    import sys
+    sys.path.insert(0,str(p.parent))
+    from formalize import review
+    c=agent.contract('ccz_d0')
+    proposal={k:c[k] for k in ['import','binders','statement']}
+    assert review('ccz_d0',proposal)['status']=='REFERENCE_MATCH'
+    proposal['binders'] += ' (h : False)'
+    assert review('ccz_d0',proposal)['status']=='REVIEW_REQUIRED'
