@@ -1,0 +1,9 @@
+{
+  "upstream_commit": "6c28d91163bc728999fef7b04ba54ae773fe58e9",
+  "upstream_sha256": "1c2a15b632ccf613e8478cab0b97710bc97b2c17c904a05240e9e07f9f56df62",
+  "ccz_cases": 24,
+  "exact_operator_cases": 804,
+  "matrix_functions": 32,
+  "lean_rows_compared": 0,
+  "lean_bridge": "NOT_RUN"
+}
